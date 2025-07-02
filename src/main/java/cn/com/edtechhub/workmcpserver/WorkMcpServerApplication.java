@@ -1,6 +1,8 @@
 package cn.com.edtechhub.workmcpserver;
 
 import cn.com.edtechhub.workmcpserver.tools.imageSearch.ImageSearchTool;
+import io.modelcontextprotocol.server.McpAsyncServer;
+import io.modelcontextprotocol.server.McpSyncServer;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.ai.tool.ToolCallbackProvider;
 import org.springframework.ai.tool.method.MethodToolCallbackProvider;
@@ -29,8 +31,7 @@ public class WorkMcpServerApplication {
      */
     @Bean
     public ToolCallbackProvider imageSearchTools(ImageSearchTool imageSearchTool) {
-        return MethodToolCallbackProvider
-                .builder()
+        return MethodToolCallbackProvider.builder()
                 .toolObjects(imageSearchTool)
                 .build();
     }
