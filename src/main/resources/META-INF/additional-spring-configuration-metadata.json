@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "my-api.wms-image-search-api",
+      "type": "java.lang.String",
+      "description": "Description for my-api.wms-image-search-api."
+  }
+] }
