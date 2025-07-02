@@ -4,5 +4,25 @@
       "name": "my-api.wms-image-search-api",
       "type": "java.lang.String",
       "description": "Description for my-api.wms-image-search-api."
-  }
-] }
+    },
+    {
+      "name": "spring.ai.mcp.server.name",
+      "type": "java.lang.String",
+      "description": "Description for spring.ai.mcp.server.name."
+    },
+    {
+      "name": "spring.ai.mcp.server.version",
+      "type": "java.lang.String",
+      "description": "Description for spring.ai.mcp.server.version."
+    },
+    {
+      "name": "spring.ai.mcp.server.type",
+      "type": "java.lang.String",
+      "description": "Description for spring.ai.mcp.server.type."
+    },
+    {
+      "name": "spring.ai.mcp.server.stdio",
+      "type": "java.lang.String",
+      "description": "Description for spring.ai.mcp.server.stdio."
+    }
+  ] }

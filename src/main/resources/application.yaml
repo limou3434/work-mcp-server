@@ -1,8 +1,13 @@
 spring:
   application:
     name: work-mcp-server
-  profiles:
-    active: stdio
+  ai:
+    mcp:
+      server:
+        name: work-mcp-server
+        version: 0.0.1
+        type: SYNC
+        stdio: false
 
 # 配置服务
 server:

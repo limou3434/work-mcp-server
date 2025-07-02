@@ -24,7 +24,7 @@ public class WorkMcpServerApplication {
     }
 
     /**
-     * 注册工具为 MCP
+     * 注册 MCP 工具来暴露出去
      *
      * @param imageSearchTool 图片搜索工具实例
      * @return 工具调用提供者
