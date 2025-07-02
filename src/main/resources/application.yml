@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: yu-image-search-mcp-server
+  profiles:
+    active: stdio
+
+# 配置服务
+server:
+  ## 配置地址
+  address: 127.0.0.1
+  ## 配置端口
+  port: 8127
+
+# 配置日志
+logging:
+  level:
+    # root: DEBUG # 如果需要仔细调试可以打开这个选项
+    cn.com.edtechhub.workmcpserver: DEBUG # 控制本项目包内的日志输出等级 TRACE | DEBUG | INFO | WARN | ERROR | FATAL
+    org.springframework.ai: DEBUG
+
+# 图片搜索
+image-search:
+  api-key: ${WMS_IMAGE_SEARCH_API}
